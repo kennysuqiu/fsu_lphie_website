@@ -17,9 +17,11 @@ const HeroSection = () => {
         <HeroH1>Florida State University Associate Chapter of Lambda Phi Epsilon</HeroH1>
         <HeroP>Check out our interest form!</HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-            Interest Form {hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA6GiAzEllXXPCTMpwLRO6MLDnGHKrIgxwEZntYZn1DBW2hA/viewform" target="_blank">
+            <Button onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+              Interest Form {hover ? <ArrowForward /> : <ArrowRight />}
+            </Button>
+          </a>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

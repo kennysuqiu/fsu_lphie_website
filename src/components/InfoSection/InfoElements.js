@@ -48,11 +48,11 @@ export const Column2 = styled.div`
 export const TextWrapper = styled.div`
   max-width: 540px;
   padding-top: 0;
-  /* padding-bottom: 60px; */
+  padding-bottom: 60px;
 `;
 
 export const TopLine = styled.p`
-  color: #00f9ff;
+  color: #40e0d0;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -95,4 +95,14 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+  animation: fly-in 2s ease-in-out;
+
+  @keyframes fly-in {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
 `;

@@ -11,11 +11,11 @@ const Sidebar = ({ toggle, isOpen }) => {
           <SidebarLink to="history" onClick={toggle} offset={-80}>
             History
           </SidebarLink>
-          <SidebarLink to="chapters" onClick={toggle} offset={-80}>
-            Chapters
-          </SidebarLink>
           <SidebarLink to="about" onClick={toggle} offset={-80}>
             About Us
+          </SidebarLink>
+          <SidebarLink to="philanthropy" onClick={toggle} offset={-80}>
+            Philanthropy
           </SidebarLink>
           <SidebarLink to="executives" onClick={toggle} offset={-80}>
             Executives

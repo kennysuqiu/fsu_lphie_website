@@ -74,7 +74,7 @@ export const ExecutivesH1 = styled.h1`
 export const ExecutivesH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
-  color: #00f9ff;
+  color: #40e0d0;
 `;
 
 export const ExecutivesP = styled.p`

@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const Button = styled(Link)`
+export const Button = styled.button`
   border-radius: 50px;
-  background: ${({ primary }) => (primary ? "#00F9FF" : "#010606")};
+  background: ${({ primary }) => (primary ? "#40E0D0" : "#010606")};
   white-space: nowrap;
   padding: ${({ big }) => (big ? "14px 48px " : "12px 30px")};
   color: ${({ dark }) => (dark ? "#010606 " : "#fff")};
@@ -18,6 +18,6 @@ export const Button = styled(Link)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: ${({ primary }) => (primary ? "#fff " : "#00F9FF")};
+    background: ${({ primary }) => (primary ? "#fff " : "#40E0D0")};
   }
 `;
