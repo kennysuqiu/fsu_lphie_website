@@ -32,3 +32,20 @@ export const homeObjTwo = {
   primary: false,
   darkText: true,
 };
+export const homeObjThree = {
+  id: "philanthropy",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Philanthropy",
+  headLine: "What is Lambda Phi Epsilon's philanthropy?",
+  description:
+    "The fraternity's national philanthropy works to raise awareness for bone marrow drives. For patients with leukemia or any other blood disorder, the best chance of finding a matching donor lies within their own ethnic community. Asian donors comprise a small fraction (7% as of January 2013) of the National Marrow Donor Program (NMDP). Because of this, every chapter of Lambda Phi Epsilon hosts several bone marrow drives in conjunction with organizations like the Asian American Donor Program, Asians for Miracle Marrow Matches, and the former Cammy Lee Leukemia Foundation to inform, educate, and recruit potential marrow donors for the NMDP.",
+  buttonLabel: "Learn More",
+  imgStart: false,
+  img: require("../../images/bethematch.jpg"),
+  alt: "Founders",
+  dark: true,
+  primary: true,
+  darkText: false,
+};

@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const ExecutivesContainer = styled.div`
-  height: 900px;
+  height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #010606;
+  background: #fff;
 
   @media screen and (max-width: 768px) {
     height: 2000px;
@@ -36,7 +36,7 @@ export const ExecutivesWrapper = styled.div`
 `;
 
 export const ExecutivesCard = styled.div`
-  background: #fff;
+  background: #000;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -64,7 +64,7 @@ export const ExecutivesIcon = styled.img`
 
 export const ExecutivesH1 = styled.h1`
   font-size: 2.5rem;
-  color: #fff;
+  color: #000;
   margin-bottom: 40px;
   @media screen and (max-width: 480px) {
     font-size: 2rem;
@@ -74,9 +74,11 @@ export const ExecutivesH1 = styled.h1`
 export const ExecutivesH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
+  color: #00f9ff;
 `;
 
 export const ExecutivesP = styled.p`
   font-size: 1rem;
   text-align: center;
+  color: #fff;
 `;
