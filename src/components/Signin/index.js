@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../Navbar";
 import { FormContent, Container, FormWrap, Icon, FormH1, FormLabel, FormInput, FormButton, Text, Form } from "./SigninElements";
 
 const SignIn = () => {

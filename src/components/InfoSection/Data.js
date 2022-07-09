@@ -14,6 +14,7 @@ export const homeObjOne = {
   dark: true,
   primary: true,
   darkText: false,
+  location: "history",
 };
 export const homeObjTwo = {
   id: "about",
@@ -31,6 +32,7 @@ export const homeObjTwo = {
   dark: false,
   primary: false,
   darkText: true,
+  location: "aboutus",
 };
 export const homeObjThree = {
   id: "philanthropy",
@@ -48,4 +50,5 @@ export const homeObjThree = {
   dark: true,
   primary: true,
   darkText: false,
+  location: "philanthropy",
 };

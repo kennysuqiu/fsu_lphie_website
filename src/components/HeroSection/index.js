@@ -17,8 +17,15 @@ const HeroSection = () => {
         <HeroH1>Florida State University Associate Chapter of Lambda Phi Epsilon</HeroH1>
         <HeroP>Check out our interest form!</HeroP>
         <HeroBtnWrapper>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA6GiAzEllXXPCTMpwLRO6MLDnGHKrIgxwEZntYZn1DBW2hA/viewform" target="_blank">
-            <Button onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+          <a>
+            <Button
+              to={{ pathname: "//docs.google.com/forms/d/e/1FAIpQLSeA6GiAzEllXXPCTMpwLRO6MLDnGHKrIgxwEZntYZn1DBW2hA/viewform" }}
+              target="_blank"
+              onMouseEnter={onHover}
+              onMouseLeave={onHover}
+              primary="true"
+              dark="true"
+            >
               Interest Form {hover ? <ArrowForward /> : <ArrowRight />}
             </Button>
           </a>
